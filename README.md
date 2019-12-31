@@ -1,6 +1,6 @@
 # DBD-Monitor
 
-DBD Monitor stores and shows your personal DBD stats and notifies when a lobby is found.
+DBD Monitor stores and shows your personal Dead by Daylight stats and notifies when a game lobby is found.
 
 # Youtube Tutorial:
 https://youtu.be/5OzM5NsqKjI
