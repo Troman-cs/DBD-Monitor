@@ -55,8 +55,11 @@ namespace DBDMN
         public static void load()
         {
             // Exit if no stats file
-            if ( !File.Exists( filePath ) )
+            if (!File.Exists(filePath))
+            {
+                bStatsLoaded = true;
                 return;
+            }
 
             Dbg.assert( Stats.getGames().Count == 0, "Trying to load stats while they are already loaded, " +
                 "might lose loaded stats");
